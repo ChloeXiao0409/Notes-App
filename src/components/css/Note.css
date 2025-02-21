@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:wght@400;800");
+
+textarea {
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 80px;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+  resize: none;
+  padding: 10px;
+  font-family: "Montserrat";
+}
+
+/* Style for the note container */
+.note {
+  min-height: 120px;
+  max-width: 300px;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgba(245, 245, 245, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Footer section of the note */
+.note__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: white;
+}
+
+/* Style for the save button */
+.note__save {
+  background-color: transparent;
+  padding: 6px 12px;
+  border-radius: 10px;
+  border: 1.5px solid white;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.note__save:hover {
+  background-color: whitesmoke;
+  color: #4b1589;
+}
+
+.note__delete {
+  cursor: pointer;
+}
+
+.note__delete:hover {
+  transform: scale(1.1);
+}
+
+.char__progress {
+  background-color: white !important;
+}
